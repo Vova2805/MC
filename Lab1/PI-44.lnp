@@ -1,10 +1,9 @@
 --cpu Cortex-M4.fp
-".\objects\init.o"
-".\objects\main.o"
-".\objects\stm32f4xx_rcc.o"
-".\objects\stm32f4xx_gpio.o"
-".\objects\system_stm32f4xx.o"
-".\objects\startup_stm32f4xx.o"
+".\init.o"
+".\main.o"
+".\stm32f4xx_rcc.o"
+".\stm32f4xx_gpio.o"
+".\system_stm32f4xx.o"
 --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list ".\PI-44.map" -o .\Objects\PI-44.axf
+--list ".\PI-44.map" -o .\PI-44.axf
