@@ -9,8 +9,8 @@ void delay_ms(uint16_t delay_temp);
 int main(void)
 {
 	SysTick_Config(SystemCoreClock/1000);//1 ms
-	led_CMSIS();
-	//led_SPL();
+	//led_CMSIS();
+	led_SPL();
 }
 
 //----------------------------------------------
