@@ -47,16 +47,7 @@ void SPI_Initialize(void)
 	
 	SPI_Cmd(SPI1, ENABLE);
 }
- 
-void CS_On(void)
-{
-	GPIO_ResetBits(GPIOE, GPIO_Pin_3);
-}
 
-void CS_Off(void)
-{
-	GPIO_SetBits(GPIOE, GPIO_Pin_3);
-}
 
 uint8_t Write_Data(uint8_t data) 
 {
@@ -85,3 +76,14 @@ uint8_t Read_Reg(uint8_t addr)
 	CS_Off();
 	return data;
 }
+ 
+void CS_On(void)
+{
+	GPIO_ResetBits(GPIOE, GPIO_Pin_3);
+}
+
+void CS_Off(void)
+{
+	GPIO_SetBits(GPIOE, GPIO_Pin_3);
+}
+

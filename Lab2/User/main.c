@@ -23,7 +23,7 @@ void init_led_port(void)
 	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;			
 	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;			
 	GPIO_Init(GPIOD, &GPIO_InitStructure);					
-	}
+}
 
 void init_EXTI()											
 {

@@ -1,6 +1,6 @@
 Dependencies for Project 'lab4', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x57F7794F)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./StdPeriph -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\STM32\inc -I .\STM32\src -I .\STM32-IZ:\PI\NULP\IV\Microcontrollers\microcontroller-STM32F4-discovery\lab4\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (SPI.h)(0x57F77A2C)
+F (.\main.c)(0x57FA9084)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./StdPeriph -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\STM32\inc -I .\STM32\src -I .\STM32-IZ:\PI\NULP\IV\Microcontrollers\microcontroller-STM32F4-discovery\lab4\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (SPI.h)(0x57FA9070)
 I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5501A6C0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x5735DBEE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
@@ -38,8 +38,8 @@ I (.\STM32\inc\stm32f4xx_dcmi.h)(0x527D270A)
 I (.\STM32\inc\stm32f4xx_fsmc.h)(0x527D270A)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5735DBF0)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574E8476)
-F (.\SPI.c)(0x57F77A17)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./StdPeriph -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\STM32\inc -I .\STM32\src -I .\STM32-IZ:\PI\NULP\IV\Microcontrollers\microcontroller-STM32F4-discovery\lab4\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx --C99-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
-I (SPI.H)(0x57F77A2C)
+F (.\SPI.c)(0x57FA9066)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./StdPeriph -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\STM32\inc -I .\STM32\src -I .\STM32-IZ:\PI\NULP\IV\Microcontrollers\microcontroller-STM32F4-discovery\lab4\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx --C99-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (SPI.H)(0x57FA9070)
 I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5501A6C0)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include\core_cm4.h)(0x5735DBEE)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E8476)
@@ -75,7 +75,7 @@ I (.\STM32\inc\stm32f4xx_can.h)(0x527D270A)
 I (.\STM32\inc\stm32f4xx_dac.h)(0x527D270A)
 I (.\STM32\inc\stm32f4xx_dcmi.h)(0x527D270A)
 I (.\STM32\inc\stm32f4xx_fsmc.h)(0x527D270A)
-F (.\SPI.h)(0x57F77A2C)()
+F (.\SPI.h)(0x57FA9070)()
 F (.\STM32\stm32f4xx_conf.h)(0x53E8EFC6)()
 F (.\STM32\src\misc.c)(0x527D2722)(-c --cpu Cortex-M4.fp -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections -I ./StdPeriph -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source -I .\STM32\inc -I .\STM32\src -I .\STM32-IZ:\PI\NULP\IV\Microcontrollers\microcontroller-STM32F4-discovery\lab4\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F407xx --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (.\STM32\inc\misc.h)(0x527D270A)

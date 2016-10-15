@@ -89,22 +89,20 @@ else
 GPIO_ResetBits(GPIOA, GPIO_Pin_8);
 }
 
-
-
 void LCD5110_RST(unsigned char OnOff)
-{
-if (OnOff)
- 	GPIO_SetBits(GPIOC, GPIO_Pin_7);
-else 
-GPIO_ResetBits(GPIOC, GPIO_Pin_7);
-}
-
-void LCD5110_DC(unsigned char OnOff)
 {
 if (OnOff)
  	GPIO_SetBits(GPIOC, GPIO_Pin_8);
 else 
 GPIO_ResetBits(GPIOC, GPIO_Pin_8);
+}
+
+void LCD5110_DC(unsigned char OnOff)
+{
+if (OnOff)
+ 	GPIO_SetBits(GPIOC, GPIO_Pin_7);
+else 
+GPIO_ResetBits(GPIOC, GPIO_Pin_7);
 }
 
 void LCD5110_MO(unsigned char OnOff)
@@ -114,11 +112,6 @@ if (OnOff)
 else 
 GPIO_ResetBits(GPIOC, GPIO_Pin_6);
 }
-
-
-
-
-
 
 void LCDWrite(unsigned char mode, unsigned char data)
 {
@@ -169,14 +162,14 @@ void gotoXY(unsigned char X,unsigned char Y)
 {
 	unsigned char x;
 	x = 6*X;
-	LCDWrite(0x40|Y,0);
-	LCDWrite(0x80|x,0);
+	LCDWrite(0, 0x40|Y);
+	LCDWrite(0, 0x80|x);
 }
 
 void updateDisplay()
 {
 	int i;
-  gotoXY(0, 0);
+  gotoXY(10, 0);
   for (i=0; i < (LCD_WIDTH * LCD_HEIGHT / 8); i++)
   {
     LCDWrite(LCD_DATA, displayMap[i]);
